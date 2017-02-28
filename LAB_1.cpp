@@ -76,3 +76,4 @@ int main()
 	system("pause");
 }
 привет
+hello git
