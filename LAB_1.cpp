@@ -75,3 +75,4 @@ int main()
 	
 	system("pause");
 }
+привет
