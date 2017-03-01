@@ -126,9 +126,7 @@ else
   }
 }
 
-=======
-  ///PRIVET
->>>>>>> origin/master
+
 
 
 
