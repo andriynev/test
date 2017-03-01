@@ -88,7 +88,9 @@ int main()
 			cout << setw(4)<< c[i][j];
 		cout << endl;
 	}
-///////////////////////////// Новый массив  для степени
+///////////////////////////// Новый массив  для степени SUMijnist
+if (s==0)
+{
  int Step [19], temp=0;
 
   for ( int i=0; i<n;i++)
@@ -102,7 +104,26 @@ int main()
       temp=0;
        cout << "d(v"<<i+1<<") = "<<Step[i]<<endl;
   }
+}
+else
+{ int temp1=0, temp2=0;
 
+    int Step2 [20][2];
+      for ( int i=0; i<n;i++)
+  {
+      for ( int j=0 ;j<m;j++)
+      {
+          if (c[i][j]==1) temp1++;
+          if (c[i][j]==-1) temp2++;
+          if (c[i][j]==2) {temp1++;temp2++;}
+      }
+      Step2[i][0]=temp1; //VHOD
+      Step2[i][1]=temp2; // VIHOD
+      temp1=0; temp2=0;
+       cout << "Cтепень полувхода вершины "<<i+1<<"= "<< Step2[i][0]<<endl;
+       cout << "Cтепень полувыхода вершины "<<i+1<<"= "<< Step2[i][1]<<endl;
+  }
+}
 
 
 
