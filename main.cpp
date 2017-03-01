@@ -103,7 +103,7 @@ int main()
        cout << "d(v"<<i+1<<") = "<<Step[i]<<endl;
   }
 
-
+  ///PRIVET
 
 
 
