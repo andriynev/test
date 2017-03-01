@@ -108,6 +108,7 @@ if (s==0)
 else
 { int temp1=0, temp2=0;
 
+<<<<<<< HEAD
     int Step2 [20][2];
       for ( int i=0; i<n;i++)
   {
@@ -125,6 +126,9 @@ else
   }
 }
 
+=======
+  ///PRIVET
+>>>>>>> origin/master
 
 
 
