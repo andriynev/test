@@ -198,7 +198,7 @@ for (int i=0;i<n;i++)
     for(int i = 0; i < j; i++)
         cout << rad[i]+1 << " ";
    ///////////////////////////////////
- int mi=999,ma=0,  l[n];
+ int mi=999,ma=0,  l[20];
   for (int i=0;i<n;i++) l[i]=0; // Zero vector
 
   for (int i=0;i<n;i++) // Max in string AND print Matrix
@@ -221,6 +221,6 @@ for (int i=0;i<n;i++)
 
 
 
-
+  cin.ignore();
 	cin.get();
 }
